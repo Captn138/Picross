@@ -11,3 +11,6 @@ execute: exec game1.txt game2.txt game3.txt game4.txt
 
 clean:
 	rm *.o exec
+
+install:
+	sudo apt-get install make gcc libncurses5-dev
